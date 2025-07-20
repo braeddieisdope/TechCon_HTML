@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+</head>
+    
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Get in Touch</h2>
+        
+        <section>
+            <h3>General Inquiries</h3>
+            <p>For any questions regarding TechCon 2024, please feel free to reach out to our team:</p>
+            <p>Email: <a href="mailto:contact@techcon.com">contact@techcon.com</a></p>
+
+            <h3>Connect With Us</h3>
+            <p>Follow us on social media for the latest updates and announcements:</p>
+            <ul>
+                <li><a href="https://twitter.com/techcon" target="_blank">Twitter (X)</a></li>
+                <li><a href="https://linkedin.com/company/techcon" target="_blank">LinkedIn</a></li>
+                <li><a href="https://facebook.com/techcon" target="_blank">Facebook</a></li>
+            </ul>
+        </section>
+
+        <!-- Embedded Google Maps Location -->
+        <section>
+            <h3>Conference Venue</h3>
+            <p>Find us at the heart of innovation:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.256877028456!2d-73.98785988459424!3d40.7484403793279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b6c4b2b7%3A0x4d6c2a4d3b2b7b2b!2sJavits%20Center!5e0!3m2!1sen!2sus!4v1678901234567!5m2!1sen!2sus"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Google Maps location of Javits Center, New York"
+            ></iframe>
+            <p>Note: The map shows a generic conference center location. Please update the `src` attribute with your actual venue's Google Maps embed code.</p>
+        </section>
+
+        <!-- Contact Us Form -->
+        <section>
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="user_email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="user_message" rows="5" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>                
+    </main>
+
+    <footer>
+        <p>&copy; copyright Techcon 2024</p>
+    </footer>
+</body>
+</html>
